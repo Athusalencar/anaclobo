@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia op
+		inteiro res=0
+		escreva("este programa calcula as tabuadas do 1 a 9:\n")
+		faca{
+			escreva("digite um numero para calcular sua tabuada:\n ")
+			leia(op)
+			se(op=="2"){
+				para (inteiro j=1 ; j <=9 ; j++){
+					res = 2+j
+					escreva("2 + ", j , " = ", res, "\t")
+					res= 2+j 
+					escreva(res," - 2 = ", j,"\t")
+					res = 2*j
+					escreva("2 x ", j , " = ", res, "\t")
+					res= 2*j
+					escreva(res," / 2  = ", j, "\n") } }
+			se(op=="4"){
+				para (inteiro j=1 ; j <=9 ; j++){
+					res = 4+j
+					escreva("4 + ", j , " = ", res, "\t")
+					res = 4+j
+					escreva(res," - 4 = ", j ,"\t")
+					res = 4*j
+					escreva("4 x ", j , " = ", res, "\t")
+					res = 4*j
+					escreva(res," / 4 = ", j,"\n") } }
+			se(op=="9"){
+				para (inteiro j=1 ; j <=9 ; j++){
+					res= 9+j
+					escreva("9 + ", j , " = ", res, "\t")
+					res =9+j
+					escreva(res," - 9 = ", j ,"\t")
+					res= 9*j
+					escreva("9 x ", j , " = ", res, "\t")
+					res= 9*j	
+					escreva(res," / 9 = ", j, "\n") } }
+	         }enquanto(res!=0)
+	            limpa()
+			  escreva("obrigado por usa este programa") } }
